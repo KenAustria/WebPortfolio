@@ -1,0 +1,5 @@
+.Portfolio {
+  display: flex;
+  flex-flow: column wrap;
+  height: 100vh;
+}
