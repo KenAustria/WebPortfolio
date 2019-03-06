@@ -1,10 +1,10 @@
 import React from "react";
-// import classes from "./Profile.module.scss";
+import Header from "../Header/Header";
 
 const Profile = () => {
 	return (
 		<div>
-			Profile
+			<Header />
 		</div>
 	);
 };
