@@ -1,25 +1,25 @@
 /* Boilerplate */
-@import "./styles/boilerplate/_main.scss";
-@import "./styles/boilerplate/_normalize.scss";
+@import "./Sass/boilerplate/_main.scss";
+@import "./Sass/boilerplate/_normalize.scss";
 
 /* Variables */
-@import "./styles/variables/_color.scss";
-@import "./styles/variables/_type.scss";
+@import "./Sass/variables/_color.scss";
+@import "./Sass/variables/_type.scss";
 
 /* Mixins */
-@import "./styles/mixins/_grid.scss";
+@import "./Sass/mixins/_grid.scss";
 
 /* Elements */
-@import "./styles/elements/_all.scss";
-@import "./styles/elements/_anchor.scss";
-@import "./styles/elements/_body.scss";
-@import "./styles/elements/_heading.scss";
-@import "./styles/elements/_html.scss";
-@import "./styles/elements/_paragraph.scss";
-@import "./styles/elements/_unordered-list.scss";
+@import "./Sass/elements/_all.scss";
+@import "./Sass/elements/_anchor.scss";
+@import "./Sass/elements/_body.scss";
+@import "./Sass/elements/_heading.scss";
+@import "./Sass/elements/_html.scss";
+@import "./Sass/elements/_paragraph.scss";
+@import "./Sass/elements/_unordered-list.scss";
 
 /* App */
-@import "./styles/app/_app-portfolio.scss";
-@import "./styles/app/_app-profile.scss";
-@import "./styles/app/_app.scss";
-@import "./styles/app/_cursor.scss";
+@import "./Sass/app/_app-portfolio.scss";
+@import "./Sass/app/_app-profile.scss";
+@import "./Sass/app/_app.scss";
+@import "./Sass/app/_cursor.scss";
