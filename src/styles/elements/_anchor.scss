@@ -1,0 +1,15 @@
+a:active,
+a:hover,
+a:link,
+a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+.profile {
+  border-bottom: 1px dotted $color-red;
+  padding-bottom: 2px;
+  &.commit-repo {
+    padding-bottom: 0;
+  }
+}
