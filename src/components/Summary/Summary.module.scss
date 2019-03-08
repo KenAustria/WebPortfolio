@@ -1,0 +1,72 @@
+$color-blue: #158fe0;
+$color-red: #b71c1c;
+$font-size-xsmall: 11px;
+$font-size-small: 13px;
+$font-size-normal: 16px;
+$font-size-medium: 20px;
+$font-size-large: 32px;
+$font-size-xlarge: 40px;
+$letter-spacing-normal: .25px;
+$letter-spacing-large: 2px;
+
+.profileSection {
+  position: relative;
+
+  p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: $font-size-normal;
+    letter-spacing: $letter-spacing-normal;
+    line-height: 20px;
+    text-align: justify;
+  }
+  i {
+    font-size: $font-size-large;
+  }
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: $font-size-medium;
+  letter-spacing: $letter-spacing-large;
+  text-transform: uppercase;
+  margin: 20px 0px;
+}
+
+.profileTitle {
+  color: $color-blue;
+  margin-bottom: 30px;
+  font-family: Sacramento, serif;
+  font-size: $font-size-xlarge;
+}
+
+.profileIntro,
+.profileContact,
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.profileIntro {
+  color: $color-blue;
+  font-size: $font-size-normal;
+}
+
+.profileContact {
+  color: $color-blue;
+  font-size: $font-size-normal;
+}
+
+a:active,
+a:hover,
+a:link,
+a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+.profile {
+  border-bottom: 1px dotted $color-red;
+  padding-bottom: 2px;
+  &.commit-repo {
+    padding-bottom: 0;
+  }
+}

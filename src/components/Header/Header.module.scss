@@ -3,6 +3,7 @@ $font-size-xxsmall: 10px;
 $font-size-small: 13px;
 $font-size-medium: 20px;
 $font-size-large: 32px;
+$font-size-xxlarge: 60px;
 $letter-spacing-large: 2px;
 $color-black: #000;
 $color-red: #b71c1c;
@@ -53,17 +54,6 @@ $color-blue: #158fe0;
   -ms-flex-wrap: $wrap;
   flex-wrap: $wrap;
 }
-
-/*
-From Original Portfolio
-@mixin clearfix {
-  &::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-}
-*/
 
 .appPortfolioContainer {
   width: 30%;
@@ -157,7 +147,7 @@ From Original Portfolio
   margin-left: -30px;
   display: block;
   font-weight: 800;
-  font-size: 60px;
+  font-size: $font-size-xxlarge;
 }
 
 .portfolioTitleLower {
@@ -306,8 +296,6 @@ From Original Portfolio
     }
   }
 }
-
-
 
 @media (max-height: 449px) {
   .appPortfolio {
