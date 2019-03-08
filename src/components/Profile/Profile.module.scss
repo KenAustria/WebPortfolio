@@ -1,0 +1,94 @@
+$color-red: #b71c1c;
+$color-white: #FAFAFA;
+$color-blue: #158fe0;
+$font-size-normal: 16px;
+
+@mixin display-flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+@mixin align-items($align) {
+  -webkit-align-items: $align;
+  -moz-align-items: $align;
+  -ms-align-items: $align;
+  align-items: $align;
+}
+
+@mixin justify-content($justify) {
+  -webkit-justify-content: $justify;
+  -moz-justify-content: $justify;
+  -ms-justify-content: $justify;
+  justify-content: $justify;
+  -ms-flex-pack: $justify;
+}
+
+.stickyDefault {
+  display: none;
+}
+
+.stickyButton {
+  @include display-flex;
+  @include align-items(center);
+  @include justify-content(center);
+  height: 30px;
+  width: 30px;
+  background-color: rgba($color-blue, 0.8);
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+  z-index: 999;
+  i {
+    color: $color-white;
+    font-size: $font-size-normal;
+    transition: .2s ease-in-out;
+  }
+  &:hover {
+    cursor: pointer;
+    i {
+      color: rgba(255, 255, 255, 0.55);
+      transition: .2s ease-in-out;
+    }
+  }
+}
+
+.stickyMobile {
+  display: none;
+}
+
+.appProfile {
+  margin: 0 5% 2% 30%;
+  position: relative;
+  width: 70%;
+}
+
+.appProfileContent {
+  padding: 25px; /* ORIGINALLY 80px*/
+  padding-bottom: 0 !important;
+  overflow-x: hidden;
+}
+
+@media (max-width: 1024px) {
+  .appProfile {
+    display: block;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .stickyDefault {
+    display: none;
+  }
+
+  .stickyMobile {
+    display: block;
+  }
+}
+
+@media (max-width: 449px) {
+  .appProfileContent {
+    padding: 60px 40px 40px 40px;
+  }
+}
