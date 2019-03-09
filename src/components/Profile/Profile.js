@@ -4,6 +4,7 @@ import Header from "../Header/Header";
 import Summary from "../Summary/Summary";
 import Toolbox from "../Toolbox/Toolbox";
 import Experience from "../Experience/Experience";
+import Education from "../Education/Education";
 import { Scrollbars } from "react-custom-scrollbars";
 import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -29,6 +30,7 @@ const Profile = () => {
           <Summary />
           <Toolbox />
           <Experience />
+					<Education />
         </div>
       </article>
     </Scrollbars>
