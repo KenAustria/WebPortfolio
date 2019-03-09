@@ -1,25 +1,25 @@
 /* Boilerplate */
-@import "./Sass/boilerplate/_main.scss";
-@import "./Sass/boilerplate/_normalize.scss";
+@import "./Sass/boilerplate/_main.module.scss";
+@import "./Sass/boilerplate/_normalize.module.scss";
 
 /* Variables */
-@import "./Sass/variables/_color.scss";
-@import "./Sass/variables/_type.scss";
+@import "./Sass/variables/_color.module.scss";
+@import "./Sass/variables/_type.module.scss";
 
 /* Mixins */
-@import "./Sass/mixins/_grid.scss";
+@import "./Sass/mixins/_grid.module.scss";
 
 /* Elements */
-@import "./Sass/elements/_all.scss";
-@import "./Sass/elements/_anchor.scss";
-@import "./Sass/elements/_body.scss";
-@import "./Sass/elements/_heading.scss";
-@import "./Sass/elements/_html.scss";
-@import "./Sass/elements/_paragraph.scss";
-@import "./Sass/elements/_unordered-list.scss";
+@import "./Sass/elements/_all.module.scss";
+@import "./Sass/elements/_anchor.module.scss";
+@import "./Sass/elements/_body.module.scss";
+@import "./Sass/elements/_heading.module.scss";
+@import "./Sass/elements/_html.module.scss";
+@import "./Sass/elements/_paragraph.module.scss";
+@import "./Sass/elements/_unordered-list.module.scss";
 
 /* App */
-@import "./Sass/app/_app-portfolio.scss";
-@import "./Sass/app/_app-profile.scss";
-@import "./Sass/app/_app.scss";
-@import "./Sass/app/_cursor.scss";
+@import "./Sass/app/_app-portfolio.module.scss";
+@import "./Sass/app/_app-profile.module.scss";
+@import "./Sass/app/_app.module.scss";
+@import "./Sass/app/_cursor.module.scss";
