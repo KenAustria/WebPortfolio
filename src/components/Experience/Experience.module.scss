@@ -1,0 +1,212 @@
+$font-size-small: 13px;
+$font-size-normal: 16px;
+$font-size-large: 32px;
+$font-weight-bold: 600;
+$color-red: #b71c1c;
+$color-white: #fafafa;
+$letter-spacing-normal: 0.25px;
+
+@mixin display-grid {
+  display: -ms-grid;
+  display: grid;
+}
+
+@mixin grid-template-columns($value) {
+  -ms-grid-columns: $value;
+  grid-template-columns: $value;
+}
+
+@mixin display-flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+@mixin justify-content($justify) {
+  -webkit-justify-content: $justify;
+  -moz-justify-content: $justify;
+  -ms-justify-content: $justify;
+  justify-content: $justify;
+  -ms-flex-pack: $justify;
+}
+
+.profileSection {
+  font-family: "Source Sans Pro", sans-serif;
+  position: relative;
+  p {
+    letter-spacing: $letter-spacing-normal;
+    line-height: 20px;
+  }
+}
+
+.verticalLine {
+  position: relative;
+  padding-left: 40px;
+  list-style-type: none;
+}
+
+.verticalLine::after {
+  background-color: $color-red;
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  top: 5px;
+  width: 1px;
+}
+
+.verticalLine::before {
+  background-color: $color-white;
+  border: 1px solid $color-red;
+  border-radius: 50%;
+  bottom: 0;
+  content: "";
+  height: 7px;
+  left: 0;
+  margin-left: -3px;
+  position: absolute;
+  width: 7px;
+  z-index: 1;
+}
+
+.verticalLineContent {
+  line-height: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  &:hover {
+    .bulleted::after {
+      background-color: $color-white;
+      border: 1px solid $color-red;
+      transition: 0.2s ease-in-out;
+    }
+  }
+}
+
+.bulleted::after {
+  background-color: $color-red;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  content: "";
+  height: 7px;
+  margin-left: -43px;
+  left: 0;
+  position: absolute;
+  top: 5px;
+  transition: 0.2s ease-in-out;
+  width: 7px;
+  z-index: 1;
+}
+
+.contentHeader {
+  font-size: $font-size-normal;
+  margin-bottom: 5px;
+}
+
+.timelineHeader,
+.timelineSubheader {
+  @include display-grid;
+  @include grid-template-columns(1fr auto);
+}
+
+.contentTitle {
+  @include display-flex;
+  font-weight: $font-weight-bold;
+}
+
+.contentDetails,
+.subheaderDetails {
+  @include display-flex;
+  @include justify-content(flex-end);
+}
+
+.subheaderTitle {
+  line-height: 20px;
+  list-style: none;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: $font-size-normal;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+}
+
+a:active,
+a:hover,
+a:link,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+.profile {
+  border-bottom: 1px dotted $color-red;
+  padding-bottom: 2px;
+  &.commit-repo {
+    padding-bottom: 0;
+  }
+}
+
+.subheaderDetails {
+  font-size: $font-size-normal;
+}
+
+@media (max-width: 1299px) {
+  .timelineHeader,
+  .timelineSubheader {
+    display: block;
+    margin-bottom: 0;
+  }
+
+  .contentTitle,
+  .contentDetails,
+  .subheaderDetails {
+    display: block;
+  }
+
+  .contentTitle,
+  .subheaderTitle,
+  .timelineHeader {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .timelineHeader,
+  .timelineSubheader {
+    @include display-grid;
+    @include grid-template-columns(1fr auto);
+    margin-bottom: 10px;
+  }
+
+  .contentDetails,
+  .subheaderDetails {
+    @include display-flex;
+    @include justify-content(flex-end);
+  }
+
+  .contentTitle,
+  .subheaderTitle,
+  .timelineHeader {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 659px) {
+  .timelineHeader,
+  .timelineSubheader {
+    display: block;
+    margin-bottom: 0;
+  }
+
+  .contentTitle,
+  .contentDetails,
+  .subheaderDetails {
+    display: block;
+  }
+
+  .contentTitle,
+  .subheaderTitle,
+  .timelineHeader {
+    margin-bottom: 10px;
+  }
+}
