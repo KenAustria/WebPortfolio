@@ -2,6 +2,7 @@ import React from "react";
 import classes from "./Profile.module.scss";
 import Header from "../Header/Header";
 import Summary from "../Summary/Summary";
+import Toolbox from "../Toolbox/Toolbox";
 import { Scrollbars } from "react-custom-scrollbars";
 import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -25,6 +26,7 @@ const Profile = () => {
       <article className={classes.appProfile}>
         <div className={classes.appProfileContent}>
 					<Summary />
+					<Toolbox />
         </div>
       </article>
     </Scrollbars>
