@@ -1,7 +1,7 @@
 import React from "react";
-import classes from "./Summary.module.scss";
+import classes from "./Bio.module.scss";
 
-const Summary = () => {
+const Bio = () => {
   return (
     <div className={classes.profileSection}>
       <h1 className={classes.profileTitle}>ken austria</h1>
@@ -19,6 +19,4 @@ const Summary = () => {
   );
 };
 
-export default Summary;
-
-
+export default Bio;

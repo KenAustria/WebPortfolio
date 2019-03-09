@@ -1,10 +1,11 @@
 import React from "react";
 import classes from "./Profile.module.scss";
 import Header from "../Header/Header";
-import Summary from "../Summary/Summary";
+import Bio from "../Bio/Bio";
 import Toolbox from "../Toolbox/Toolbox";
 import Experience from "../Experience/Experience";
 import Education from "../Education/Education";
+import Availability from "../Availability/Availability";
 import { Scrollbars } from "react-custom-scrollbars";
 import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -27,10 +28,11 @@ const Profile = () => {
       <a name="top" />
       <article className={classes.appProfile}>
         <div className={classes.appProfileContent}>
-          <Summary />
+          <Bio />
           <Toolbox />
           <Experience />
 					<Education />
+					<Availability />
         </div>
       </article>
     </Scrollbars>

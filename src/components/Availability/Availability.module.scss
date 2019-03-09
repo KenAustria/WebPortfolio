@@ -1,0 +1,122 @@
+$font-size-normal: 16px;
+$font-size-large: 32px;
+$font-weight-bold: 600;
+$color-red: #b71c1c;
+$color-white: #fafafa;
+$letter-spacing-normal: 0.25px;
+
+@mixin display-flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.profileSection {
+  position: relative;
+  p {
+    letter-spacing: $letter-spacing-normal;
+    line-height: 20px;
+  }
+  i {
+    font-size: $font-size-large;
+  }
+}
+
+.verticalLine {
+  position: relative;
+  padding-left: 40px;
+  list-style-type: none;
+}
+
+.verticalLine::after {
+  background-color: $color-red;
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  top: 5px;
+  width: 1px;
+}
+
+.verticalLine::before {
+  background-color: $color-white;
+  border: 1px solid $color-red;
+  border-radius: 50%;
+  bottom: 0;
+  content: "";
+  height: 7px;
+  left: 0;
+  margin-left: -3px;
+  position: absolute;
+  width: 7px;
+  z-index: 1;
+}
+
+.verticalLineContent {
+  line-height: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  &:hover {
+    .bulleted::after {
+      background-color: $color-white;
+      border: 1px solid $color-red;
+      transition: 0.2s ease-in-out;
+    }
+  }
+}
+
+.bulleted::after {
+  background-color: $color-red;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  content: "";
+  height: 7px;
+  margin-left: -43px;
+  left: 0;
+  position: absolute;
+  top: 5px;
+  transition: 0.2s ease-in-out;
+  width: 7px;
+  z-index: 1;
+}
+
+.contentHeader {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: $font-size-normal;
+  margin-bottom: 5px;
+}
+
+.contentSubheader {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: $font-size-normal;
+}
+
+.contentTitle {
+  @include display-flex;
+  font-weight: $font-weight-bold;
+}
+
+@media (max-width: 1299px) {
+  .contentTitle {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .contentTitle {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 659px) {
+  .contentTitle {
+    display: block;
+  }
+
+  .contentTitle {
+    margin-bottom: 10px;
+  }
+}
