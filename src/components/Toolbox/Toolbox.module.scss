@@ -3,10 +3,10 @@ $font-size-normal: 16px;
 $font-size-medium: 20px;
 $font-size-large: 32px;
 $font-weight-bold: 600;
-$letter-spacing-normal: .25px;
+$letter-spacing-normal: 0.25px;
 $letter-spacing-large: 2px;
 $color-red: #b71c1c;
-$color-white: #FAFAFA;
+$color-white: #fafafa;
 
 @mixin display-flex {
   display: -webkit-box;
@@ -50,7 +50,7 @@ $color-white: #FAFAFA;
 }
 
 h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: $font-size-medium;
   letter-spacing: $letter-spacing-large;
   text-transform: uppercase;
@@ -66,7 +66,7 @@ h2 {
 .verticalLine::after {
   background-color: $color-red;
   bottom: 0;
-  content: '';
+  content: "";
   left: 0;
   position: absolute;
   top: 5px;
@@ -78,7 +78,7 @@ h2 {
   border: 1px solid $color-red;
   border-radius: 50%;
   bottom: 0;
-  content: '';
+  content: "";
   height: 7px;
   left: 0;
   margin-left: -3px;
@@ -95,7 +95,7 @@ h2 {
     .bulleted::after {
       background-color: $color-white;
       border: 1px solid $color-red;
-      transition: .2s ease-in-out;
+      transition: 0.2s ease-in-out;
     }
   }
 }
@@ -104,13 +104,13 @@ h2 {
   background-color: $color-red;
   border: 1px solid transparent;
   border-radius: 50%;
-  content: '';
+  content: "";
   height: 7px;
   margin-left: -43px;
   left: 0;
   position: absolute;
   top: 5px;
-  transition: .2s ease-in-out;
+  transition: 0.2s ease-in-out;
   width: 7px;
   z-index: 1;
 }
@@ -122,7 +122,7 @@ h2 {
 
 .contentTitle {
   @include display-flex;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: $font-size-normal;
 }
 
@@ -139,8 +139,8 @@ h2 {
   li {
     @include display-flex;
     @include align-items(center);
-    padding: 2.5px 10px;
-    font-family: 'Source Sans Pro', sans-serif;
+    padding: 2.5px 17px;
+    font-family: "Source Sans Pro", sans-serif;
     font-size: $font-size-normal;
     i {
       margin-right: 10px;

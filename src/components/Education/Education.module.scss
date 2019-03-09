@@ -3,8 +3,8 @@ $font-size-normal: 16px;
 $font-size-large: 32px;
 $font-weight-bold: 600;
 $color-red: #b71c1c;
-$color-white: #FAFAFA;
-$letter-spacing-normal: .25px;
+$color-white: #fafafa;
+$letter-spacing-normal: 0.25px;
 $letter-spacing-large: 2px;
 
 @mixin display-grid {
@@ -34,7 +34,7 @@ $letter-spacing-large: 2px;
 }
 
 .profileSection {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   position: relative;
   p {
     letter-spacing: $letter-spacing-normal;
@@ -46,7 +46,7 @@ $letter-spacing-large: 2px;
 }
 
 h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: $font-size-medium;
   letter-spacing: $letter-spacing-large;
   text-transform: uppercase;
@@ -62,7 +62,7 @@ h2 {
 .verticalLine::after {
   background-color: $color-red;
   bottom: 0;
-  content: '';
+  content: "";
   left: 0;
   position: absolute;
   top: 5px;
@@ -74,7 +74,7 @@ h2 {
   border: 1px solid $color-red;
   border-radius: 50%;
   bottom: 0;
-  content: '';
+  content: "";
   height: 7px;
   left: 0;
   margin-left: -3px;
@@ -91,7 +91,7 @@ h2 {
     .bulleted::after {
       background-color: $color-white;
       border: 1px solid $color-red;
-      transition: .2s ease-in-out;
+      transition: 0.2s ease-in-out;
     }
   }
 }
@@ -100,20 +100,20 @@ h2 {
   background-color: $color-red;
   border: 1px solid transparent;
   border-radius: 50%;
-  content: '';
+  content: "";
   height: 7px;
   margin-left: -43px;
   left: 0;
   position: absolute;
   top: 5px;
-  transition: .2s ease-in-out;
+  transition: 0.2s ease-in-out;
   width: 7px;
   z-index: 1;
 }
 
 .contentHeader {
   font-size: $font-size-normal;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   margin-bottom: 5px;
 }
 
@@ -137,10 +137,10 @@ h2 {
 .subheaderTitle {
   line-height: 20px;
   list-style: none;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: $font-size-normal;
   font-weight: 400;
-  letter-spacing: .25px;
+  letter-spacing: 0.25px;
 }
 
 @media (max-width: 1299px) {
