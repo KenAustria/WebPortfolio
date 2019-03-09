@@ -25,7 +25,7 @@ const Availability = () => {
 					</li>
 					<li className={classes.verticalLineContent}>
 						<div className={[classes.bulleted, classes.contentHeader ].join(' ')}>
-							<div className={classes.contentTitle}>Are you willing to relocate outside the United States? Work Remotely?</div>
+							<div className={classes.contentTitle}>Are you willing to relocate outside the United States?</div>
 						</div>
 						<div className={[classes.bulleted, classes.contentSubheader ].join(' ')}>
 							For the right opportunity I am definitely willing to relocate or work remotely.

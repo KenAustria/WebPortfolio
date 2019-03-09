@@ -3,6 +3,7 @@ import classes from "./Profile.module.scss";
 import Header from "../Header/Header";
 import Bio from "../Bio/Bio";
 import Toolbox from "../Toolbox/Toolbox";
+import Projects from "../Projects/Projects";
 import Experience from "../Experience/Experience";
 import Education from "../Education/Education";
 import Availability from "../Availability/Availability";
@@ -30,6 +31,7 @@ const Profile = () => {
         <div className={classes.appProfileContent}>
           <Bio />
           <Toolbox />
+					<Projects />
           <Experience />
 					<Education />
 					<Availability />

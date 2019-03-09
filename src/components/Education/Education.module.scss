@@ -1,9 +1,11 @@
+$font-size-medium: 20px;
 $font-size-normal: 16px;
 $font-size-large: 32px;
 $font-weight-bold: 600;
 $color-red: #b71c1c;
 $color-white: #FAFAFA;
 $letter-spacing-normal: .25px;
+$letter-spacing-large: 2px;
 
 @mixin display-grid {
   display: -ms-grid;
@@ -41,6 +43,14 @@ $letter-spacing-normal: .25px;
   i {
     font-size: $font-size-large;
   }
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: $font-size-medium;
+  letter-spacing: $letter-spacing-large;
+  text-transform: uppercase;
+  margin: 20px 0px;
 }
 
 .verticalLine {
