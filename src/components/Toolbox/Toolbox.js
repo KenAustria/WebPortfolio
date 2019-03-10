@@ -13,9 +13,9 @@ const Toolbar = () => {
 						</div>
 						<div className={[classes.bulleted, classes.contentSubheader].join(' ')}>
 							<ul className={classes.contentSkillList}>
+								<li>JIRA Agile Management Tools</li>
 								<li>Atlassian Confluence</li>
 								<li>Zeplin</li>
-								<li>JIRA Agile Management Tools</li>
 							</ul>
             </div>
 					</li>
@@ -26,10 +26,10 @@ const Toolbar = () => {
 						<div className={[classes.bulleted, classes.contentSubheader].join(' ')}>
 							<ul className={classes.contentSkillList}>
 								<li>Gitflow WorkFlow Branching Model</li>
-								<li>Version Control</li>
 								<li>Responsive Design</li>
-								<li>Testing</li>
+								<li>Version Control</li>
 								<li>Debugging</li>
+								<li>Testing</li>
 							</ul>
             </div>
 					</li>
@@ -53,9 +53,9 @@ const Toolbar = () => {
 						</div>
 						<div className={[classes.bulleted, classes.contentSubheader].join(' ')}>
 							<ul className={classes.contentSkillList}>
+								<li>Node Package Manager</li>
 								<li>Webpack</li>
 								<li>Git</li>
-								<li>Node Package Manager</li>
 							</ul>
 						</div>
           </li>
