@@ -43,7 +43,7 @@ const Education = () => {
                 California State University: Sacramento
               </div>
               <div className={classes.contentDetails}>
-                Aug. 2006 – May. 2010
+                Aug. 2006 – May 2010
               </div>
             </div>
             <div
