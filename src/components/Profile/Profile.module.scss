@@ -2,7 +2,7 @@
 @import '../../Sass/variables/type.scss';
 
 $color-red: #b71c1c;
-$color-white: #FAFAFA;
+$color-white: #fafafa;
 $color-blue: #158fe0;
 $font-size-normal: 16px;
 
@@ -47,13 +47,13 @@ $font-size-normal: 16px;
   i {
     color: $color-white;
     font-size: $font-size-normal;
-    transition: .2s ease-in-out;
+    transition: 0.2s ease-in-out;
   }
   &:hover {
     cursor: pointer;
     i {
       color: rgba(255, 255, 255, 0.55);
-      transition: .2s ease-in-out;
+      transition: 0.2s ease-in-out;
     }
   }
 }

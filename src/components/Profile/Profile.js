@@ -31,10 +31,10 @@ const Profile = () => {
         <div className={classes.appProfileContent}>
           <Bio />
           <Toolbox />
-					<Projects />
+          <Projects />
           <Experience />
-					<Education />
-					<Availability />
+          <Education />
+          <Availability />
         </div>
       </article>
     </Scrollbars>

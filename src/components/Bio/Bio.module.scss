@@ -2,6 +2,7 @@
 @import '../../Sass/variables/type.scss';
 
 $color-blue: #158fe0;
+$color-blue-transp: rgba(21, 143, 224, 0.8);
 $color-red: #b71c1c;
 $font-size-xsmall: 11px;
 $font-size-small: 13px;
@@ -9,14 +10,14 @@ $font-size-normal: 16px;
 $font-size-medium: 20px;
 $font-size-large: 32px;
 $font-size-xlarge: 40px;
-$letter-spacing-normal: .25px;
+$letter-spacing-normal: 0.25px;
 $letter-spacing-large: 2px;
 
 .profileSection {
   position: relative;
 
   p {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-size: $font-size-normal;
     letter-spacing: $letter-spacing-normal;
     line-height: 20px;
@@ -28,7 +29,7 @@ $letter-spacing-large: 2px;
 }
 
 h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: $font-size-medium;
   letter-spacing: $letter-spacing-large;
   text-transform: uppercase;
@@ -36,7 +37,7 @@ h2 {
 }
 
 .profileTitle {
-  color: $color-blue;
+  color: $color-blue-transp;
   margin-bottom: 30px;
   font-family: Sacramento, serif;
   font-size: $font-size-xlarge;
@@ -45,7 +46,7 @@ h2 {
 .profileIntro,
 .profileContact,
 p {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .profileIntro {
@@ -62,8 +63,8 @@ a:active,
 a:hover,
 a:link,
 a:visited {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 .profile {
