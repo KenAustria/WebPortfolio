@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import Portfolio from "./Components/Portfolio/Portfolio";
+import React, { Component } from 'react';
+import Portfolio from './components/Portfolio/Portfolio';
 
 class App extends Component {
   render() {

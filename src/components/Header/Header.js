@@ -1,8 +1,8 @@
-import React from "react";
-import classes from "./Header.module.scss";
-import { faDownload, faMapPin } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import React from 'react';
+import classes from './Header.module.scss';
+import { faDownload, faMapPin } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const Header = () => {
   return (

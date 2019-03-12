@@ -1,5 +1,5 @@
-import React from "react";
-import classes from "./Toolbox.module.scss";
+import React from 'react';
+import classes from './Toolbox.module.scss';
 
 const Toolbar = () => {
   return (
@@ -32,18 +32,6 @@ const Toolbar = () => {
                 <li>Testing</li>
               </ul>
 						</div>
-					</li>
-          <li className={classes.verticalLineContent}>
-            <div className={[classes.bulleted, classes.contentHeader].join(' ')}>
-              <div className={classes.contentTitle}>Tooling</div>
-            </div>
-            <div className={[classes.bulleted, classes.contentSubheader].join(' ')}>
-              <ul className={classes.contentSkillList}>
-                <li>Node Package Manager</li>
-                <li>Webpack</li>
-                <li>Git</li>
-              </ul>
-            </div>
 					</li>
 					<li className={classes.verticalLineContent}>
 						<div className={[classes.bulleted, classes.contentHeader].join(" ")}>

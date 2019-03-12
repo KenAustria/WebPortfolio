@@ -1,6 +1,6 @@
-import React from "react";
-import classes from "./Portfolio.module.scss";
-import Profile from "../Profile/Profile";
+import React from 'react';
+import classes from './Portfolio.module.scss';
+import Profile from '../Profile/Profile';
 
 const Portfolio = () => {
   return (

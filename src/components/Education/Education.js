@@ -1,5 +1,5 @@
-import React from "react";
-import classes from "./Education.module.scss";
+import React from 'react';
+import classes from './Education.module.scss';
 
 const Education = () => {
   return (

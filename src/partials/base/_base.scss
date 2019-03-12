@@ -1,0 +1,49 @@
+body {
+  background-color: #fafafa;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  letter-spacing: 0.25px;
+  width: 100%;
+}
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+  box-sizing: border-box;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a:active,
+a:hover,
+a:link,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

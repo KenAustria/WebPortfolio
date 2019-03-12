@@ -1,5 +1,4 @@
-@import '../../Sass/variables/color';
-@import '../../Sass/variables/type';
+@import '../../../src/partials/index.scss';
 
 $color-white: #fafafa;
 $font-size-xxsmall: 10px;
@@ -72,7 +71,7 @@ $color-blue-transp: rgba(21, 143, 224, 0.8);
   @include flex-direction(column);
   @include align-items(center);
   @include justify-content(center);
-  background-image: url("../../Images/antelope.jpg");
+  background-image: url("../../images/antelope.jpg");
   background-size: cover;
   background-position: center;
   padding: 60px;

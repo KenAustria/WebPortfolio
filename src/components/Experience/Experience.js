@@ -1,5 +1,5 @@
-import React from "react";
-import classes from "./Experience.module.scss";
+import React from 'react';
+import classes from './Experience.module.scss';
 
 const Experience = () => {
   return (

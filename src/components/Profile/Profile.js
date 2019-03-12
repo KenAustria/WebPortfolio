@@ -1,15 +1,15 @@
-import React from "react";
-import classes from "./Profile.module.scss";
-import Header from "../Header/Header";
-import Bio from "../Bio/Bio";
-import Toolbox from "../Toolbox/Toolbox";
-import Projects from "../Projects/Projects";
-import Experience from "../Experience/Experience";
-import Education from "../Education/Education";
-import Availability from "../Availability/Availability";
-import { Scrollbars } from "react-custom-scrollbars";
-import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from 'react';
+import classes from './Profile.module.scss';
+import Header from '../Header/Header';
+import Bio from '../Bio/Bio';
+import Toolbox from '../Toolbox/Toolbox';
+import Projects from '../Projects/Projects';
+import Experience from '../Experience/Experience';
+import Education from '../Education/Education';
+import Availability from '../Availability/Availability';
+import { Scrollbars } from 'react-custom-scrollbars';
+import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Profile = () => {
   return (

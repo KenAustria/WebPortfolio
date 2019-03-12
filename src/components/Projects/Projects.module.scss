@@ -1,5 +1,4 @@
-@import '../../Sass/variables/color.scss';
-@import '../../Sass/variables/type.scss';
+@import '../../../src/partials/index.scss';
 
 $font-size-xxsmall: 10px;
 $font-size-small: 13px;
@@ -132,7 +131,7 @@ h2 {
       rgba($color-primary-light, 0.8),
       rgba($color-primary-dark, 0.8)
     ),
-    url("../../Images/burger.jpg");
+    url("../../images/burger.jpg");
 }
 
 .portfolio {
@@ -141,7 +140,7 @@ h2 {
       rgba($color-primary-light, 0.8),
       rgba($color-primary-dark, 0.8)
     ),
-    url("../../Images/portfolio.jpg");
+    url("../../images/portfolio.jpg");
 }
 
 /*

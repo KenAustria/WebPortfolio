@@ -1,5 +1,5 @@
-import React from "react";
-import classes from "./Availability.module.scss";
+import React from 'react';
+import classes from './Availability.module.scss';
 
 const Availability = () => {
   return (
