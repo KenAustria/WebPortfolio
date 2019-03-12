@@ -18,7 +18,7 @@ const Experience = () => {
               <div className={classes.contentTitle}>
                 Web Development Instructor
               </div>
-              <div className={classes.contentDetails}>March 2019 – Present</div>
+              <div className={classes.contentDetails}>Mar. 2019 – Present</div>
             </div>
             <div
               className={[
@@ -51,7 +51,7 @@ const Experience = () => {
                 Front-End Software Engineer Intern
               </div>
               <div className={classes.contentDetails}>
-                October 2018 – March 2019
+                Oct. 2018 – Mar. 2019
               </div>
             </div>
             <div
@@ -85,7 +85,7 @@ const Experience = () => {
                 Software Engineer Intern
               </div>
               <div className={classes.contentDetails}>
-                January 2016 – September 2016
+                Jan. 2016 – Sep. 2016
               </div>
             </div>
             <div
