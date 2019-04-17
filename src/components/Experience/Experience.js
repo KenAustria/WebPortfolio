@@ -16,9 +16,9 @@ const Experience = () => {
               ].join(" ")}
             >
               <div className={classes.contentTitle}>
-                Web Development Instructor
+                Engineering Instructor
               </div>
-              <div className={classes.contentDetails}>Mar. 2019 – Present</div>
+              <div className={classes.contentDetails}>Apr. 2019</div>
             </div>
             <div
               className={[
@@ -30,10 +30,10 @@ const Experience = () => {
               <div className={classes.subheaderTitle}>
                 <a
                   className={classes.profile}
-                  href="https://khanlabschool.org/"
+                  href="https://www.helloworldstudio.org/"
                   target="_blank"
                 >
-                  Khan Lab School
+                  Hello World Studio
                 </a>
               </div>
               <div className={classes.subheaderDetails}>Mountain View, CA</div>
