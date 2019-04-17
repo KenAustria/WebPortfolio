@@ -10,7 +10,7 @@ const Header = () => {
       <div className={classes.appPortfolio}>
         <section className={classes.portfolioResume}>
           <a
-            href="https://www.slideshare.net/KennethAustriaPangil/front-end-react-engineer-developer-130830935"
+            href="https://www.slideshare.net/KennethAustriaPangil/front-end-react-engineer-developer-141117337"
             target="_blank"
           >
             <span className={classes.resumeDownload}>
