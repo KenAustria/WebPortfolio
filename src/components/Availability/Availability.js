@@ -32,8 +32,7 @@ const Availability = () => {
             <div
               className={[classes.bulleted, classes.contentSubheader].join(" ")}
             >
-              Yes, I'm open to relocate to Los Angeles, CA; Seattle, WA; Austin,
-              TX; New York, NY.
+              Yes, I'm open to relocate to Los Angeles, Seattle, Austin, and New York.
             </div>
           </li>
           <li className={classes.verticalLineContent}>
@@ -47,8 +46,21 @@ const Availability = () => {
             <div
               className={[classes.bulleted, classes.contentSubheader].join(" ")}
             >
-              For the right opportunity I am definitely willing to relocate or
-              work remotely.
+              Absolutely! For the right opportunity I'm willing to relocate.
+            </div>
+          </li>
+					<li className={classes.verticalLineContent}>
+            <div
+              className={[classes.bulleted, classes.contentHeader].join(" ")}
+            >
+              <div className={classes.contentTitle}>
+								Which job type arrangement are you open to?
+              </div>
+            </div>
+            <div
+              className={[classes.bulleted, classes.contentSubheader].join(" ")}
+            >
+              I’m interested in a full-time, part-time, or contract position that’s either onsite or remote.
             </div>
           </li>
         </ul>
