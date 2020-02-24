@@ -7,7 +7,67 @@ const Toolbar = () => {
       <section className={classes.profileSection}>
         <h2>Toolbox</h2>
         <ul className={classes.verticalLine}>
-          <li className={classes.verticalLineContent}>
+					<li className={classes.verticalLineContent}>
+            <div className={[classes.bulleted, classes.contentHeader].join(' ')}>
+              <div className={classes.contentTitle}>Industry</div>
+            </div>
+            <div className={[classes.bulleted, classes.contentSubheader].join(' ')}>
+              <ul className={classes.contentSkillList}>
+								<li>Agile Methodologies</li>
+                <li>Algorithms & Data Structures</li>
+                <li>Responsive Web Design</li>
+								<li>Object Oriented Programming</li>
+								<li>Test Driven Development</li>
+								<li>Git Branching Model</li>
+              </ul>
+						</div>
+          </li>
+					<li className={classes.verticalLineContent}>
+            <div className={[classes.bulleted, classes.contentHeader].join(' ')}>
+              <div className={classes.contentTitle}>Tools & Technologies</div>
+            </div>
+            <div className={[classes.bulleted, classes.contentSubheader].join(' ')}>
+              <ul className={classes.contentSkillList}>
+								<li>Chrome Developer Tools</li>
+                <li>RESTful Web Services</li>
+                <li>Ajax</li>
+								<li>Webpack</li>
+								<li>Node Package Manager</li>
+              </ul>
+						</div>
+          </li>
+					<li className={classes.verticalLineContent}>
+            <div className={[classes.bulleted, classes.contentHeader].join(' ')}>
+              <div className={classes.contentTitle}>Client</div>
+            </div>
+            <div className={[classes.bulleted, classes.contentSubheader].join(' ')}>
+              <ul className={classes.contentSkillList}>
+								<li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+								<li>React</li>
+								<li>Redux</li>
+              </ul>
+						</div>
+          </li>
+					<li className={classes.verticalLineContent}>
+            <div className={[classes.bulleted, classes.contentHeader].join(' ')}>
+              <div className={classes.contentTitle}>Server</div>
+            </div>
+            <div className={[classes.bulleted, classes.contentSubheader].join(' ')}>
+              <ul className={classes.contentSkillList}>
+                <li>PostgreSQL</li>
+								<li>NoSQL</li>
+								<li>MongoDB</li>
+								<li>Mongoose</li>
+								<li>NodeJS</li>
+								<li>Express</li>
+								<li>Firebase</li>
+								<li>Cloud Firestore</li>
+              </ul>
+						</div>
+          </li>
+          {/* <li className={classes.verticalLineContent}>
             <div className={[classes.bulleted, classes.contentHeader].join(' ')}>
               <div className={classes.contentTitle}>Software</div>
             </div>
@@ -18,8 +78,8 @@ const Toolbar = () => {
                 <li>Zeplin</li>
               </ul>
 						</div>
-          </li>
-          <li className={classes.verticalLineContent}>
+          </li> */}
+          {/* <li className={classes.verticalLineContent}>
             <div className={[classes.bulleted, classes.contentHeader].join(' ')}>
               <div className={classes.contentTitle}>Skills</div>
             </div>
@@ -32,8 +92,8 @@ const Toolbar = () => {
                 <li>Testing</li>
               </ul>
 						</div>
-					</li>
-					<li className={classes.verticalLineContent}>
+					</li> */}
+					{/* <li className={classes.verticalLineContent}>
 						<div className={[classes.bulleted, classes.contentHeader].join(" ")}>
 							<div className={classes.contentTitle}>Front End</div>
 						</div>
@@ -46,8 +106,8 @@ const Toolbar = () => {
 								<li>Redux</li>
 							</ul>
 						</div>
-					</li>
-					<li className={classes.verticalLineContent}>
+					</li> */}
+					{/* <li className={classes.verticalLineContent}>
 						<div className={[classes.bulleted, classes.contentHeader].join(" ")}>
 							<div className={classes.contentTitle}>Tooling</div>
 						</div>
@@ -58,7 +118,7 @@ const Toolbar = () => {
 								<li>Node Package Manager</li>
 							</ul>
 						</div>
-					</li>
+					</li> */}
 				</ul>
 			</section>
 		</div>
