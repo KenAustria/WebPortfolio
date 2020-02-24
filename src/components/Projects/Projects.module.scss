@@ -1,4 +1,4 @@
-@import '../../../src/partials/index.scss';
+@import "../../../src/partials/index.scss";
 
 $font-size-xxsmall: 10px;
 $font-size-small: 13px;
@@ -14,7 +14,6 @@ $color-red: #b71c1c;
 $color-red-transp: rgba(183, 28, 28, 0.75);
 $color-primary-dark: #2980b9;
 $color-primary-light: #6dd5fa;
-
 
 @mixin display-flex {
   display: -webkit-box;
@@ -125,6 +124,15 @@ h2 {
   margin-bottom: 22px;
 }
 
+.groupGrid {
+  background-image: linear-gradient(
+      to left,
+      rgba($color-primary-light, 0.8),
+      rgba($color-primary-dark, 0.8)
+    ),
+    url("../../images/groupGrid.jpg");
+}
+
 .burgerBuilder {
   background-image: linear-gradient(
       to left,
@@ -132,6 +140,24 @@ h2 {
       rgba($color-primary-dark, 0.8)
     ),
     url("../../images/burger.jpg");
+}
+
+.blogAboutIt {
+  background-image: linear-gradient(
+      to left,
+      rgba($color-primary-light, 0.8),
+      rgba($color-primary-dark, 0.8)
+    ),
+    url("../../images/blog.jpg");
+}
+
+.reactMiniScripts {
+  background-image: linear-gradient(
+      to left,
+      rgba($color-primary-light, 0.8),
+      rgba($color-primary-dark, 0.8)
+    ),
+    url("../../images/react.jpg");
 }
 
 .portfolio {
@@ -143,23 +169,14 @@ h2 {
     url("../../images/portfolio.jpg");
 }
 
-/*
-.danTheWeatherMan {
+.freeCodeCamp {
   background-image: linear-gradient(
-    to left,
-    rgba($color-primary-light, 0.8),
-    rgba($color-primary-dark, 0.8)),
-    url('../../Images/weather.jpg');
+      to left,
+      rgba($color-primary-light, 0.8),
+      rgba($color-primary-dark, 0.8)
+    ),
+    url("../../images/freeCodeCamp.jpg");
 }
-
-.blogAboutIt {
-  background-image: linear-gradient(
-    to left,
-    rgba($color-primary-light, 0.8),
-    rgba($color-primary-dark, 0.8)),
-    url('../../Images/blog.jpg');
-}
-*/
 
 .projectImage {
   background-size: cover;

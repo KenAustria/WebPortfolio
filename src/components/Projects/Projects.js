@@ -7,7 +7,80 @@ const Projects = () => {
       <section className={classes.profileSection}>
         <h2>Projects</h2>
         <ul className={classes.verticalLine}>
-          <li
+					<li
+            className={[classes.project, classes.verticalLineContent].join(" ")}
+          >
+            <div
+              className={[classes.projectDescription, classes.bulleted].join(
+                " "
+              )}
+            >
+              <div className={classes.projectName}>Group Grid</div>
+              <ul className={classes.projectDetails}>
+                <li>
+                  <span class="project-details-label">
+                    <a
+                      className={classes.profile}
+                      href="https://github.com/KenAustria/GroupGrid"
+                      target="_blank"
+                    >
+                      Live
+                    </a>
+                  </span>
+                </li>
+                <li>
+                  <span class="project-details-label">
+                    <a
+                      className={classes.profile}
+                      href="https://github.com/KenAustria/GroupGrid"
+                      target="_blank"
+                    >
+                      Source
+                    </a>
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <p className={classes.projectInfo}>
+							Social media application implemented with the React library and REST interfaces supported with Firebase cloud functions.
+            </p>
+            <div
+              className={[classes.projectImage, classes.groupGrid].join(
+                " "
+              )}
+            >
+              <ul className={classes.projectTech}>
+                <li>
+                  <i class="devicon-react-original" title="REACT" />
+                </li>
+                <li>
+                  <i class="devicon-html5-plain" title="HTML5" />
+                </li>
+                <li>
+                  <i class="devicon-css3-plain" title="CSS3" />
+                </li>
+                <li>
+                  <i class="devicon-sass-original" title="SCSS" />
+                </li>
+                <li>
+                  <i class="devicon-javascript-plain" title="JavaScript" />
+                </li>
+                <li>
+                  <i class="devicon-webpack-plain" title="Webpack" />
+                </li>
+                <li>
+                  <i class="devicon-visualstudio-plain" title="VS Code" />
+                </li>
+                <li>
+                  <i class="devicon-git-plain" title="Git" />
+                </li>
+                <li>
+                  <i class="devicon-github-plain" title="GitHub" />
+                </li>
+              </ul>
+            </div>
+          </li>
+					<li
             className={[classes.project, classes.verticalLineContent].join(" ")}
           >
             <div
@@ -42,8 +115,7 @@ const Projects = () => {
               </ul>
             </div>
             <p className={classes.projectInfo}>
-              A React-Redux application for building burgers with the ability to
-              create an order that is sent to Firebase.
+							E-commerce application for dynamically building burgers with the ability to create an order that is sent to Firebase.
             </p>
             <div
               className={[classes.projectImage, classes.burgerBuilder].join(
@@ -81,7 +153,151 @@ const Projects = () => {
               </ul>
             </div>
           </li>
-          <li
+					<li
+            className={[classes.project, classes.verticalLineContent].join(" ")}
+          >
+            <div
+              className={[classes.projectDescription, classes.bulleted].join(
+                " "
+              )}
+            >
+              <div className={classes.projectName}>Blog About It</div>
+              <ul className={classes.projectDetails}>
+                <li>
+                  <span class="project-details-label">
+                    <a
+                      className={classes.profile}
+                      href="https://blogaboutit.herokuapp.com/"
+                      target="_blank"
+                    >
+                      Live
+                    </a>
+                  </span>
+                </li>
+                <li>
+                  <span class="project-details-label">
+                    <a
+                      className={classes.profile}
+                      href="https://github.com/KenAustria/BlogAboutIt"
+                      target="_blank"
+                    >
+                      Source
+                    </a>
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <p className={classes.projectInfo}>
+						Productivity application using React-Router, built with validated Redux forms that save the record to a remote server.
+            </p>
+            <div
+              className={[classes.projectImage, classes.blogAboutIt].join(
+                " "
+              )}
+            >
+              <ul className={classes.projectTech}>
+                <li>
+                  <i class="devicon-react-original" title="REACT" />
+                </li>
+                <li>
+                  <i class="devicon-html5-plain" title="HTML5" />
+                </li>
+                <li>
+                  <i class="devicon-css3-plain" title="CSS3" />
+                </li>
+                <li>
+                  <i class="devicon-sass-original" title="SCSS" />
+                </li>
+                <li>
+                  <i class="devicon-javascript-plain" title="JavaScript" />
+                </li>
+                <li>
+                  <i class="devicon-webpack-plain" title="Webpack" />
+                </li>
+                <li>
+                  <i class="devicon-visualstudio-plain" title="VS Code" />
+                </li>
+                <li>
+                  <i class="devicon-git-plain" title="Git" />
+                </li>
+                <li>
+                  <i class="devicon-github-plain" title="GitHub" />
+                </li>
+              </ul>
+            </div>
+          </li>
+					<li
+            className={[classes.project, classes.verticalLineContent].join(" ")}
+          >
+            <div
+              className={[classes.projectDescription, classes.bulleted].join(
+                " "
+              )}
+            >
+              <div className={classes.projectName}>React Mini Scripts</div>
+              <ul className={classes.projectDetails}>
+                <li>
+                  <span class="project-details-label">
+                    <a
+                      className={classes.profile}
+                      href="https://github.com/KenAustria/React_Mini_Scripts"
+                      target="_blank"
+                    >
+                      Live
+                    </a>
+                  </span>
+                </li>
+                <li>
+                  <span class="project-details-label">
+                    <a
+                      className={classes.profile}
+                      href="https://github.com/KenAustria/React_Mini_Scripts"
+                      target="_blank"
+                    >
+                      Source
+                    </a>
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <p className={classes.projectInfo}>
+							A library of mini React scripts focusing on one relative topic.
+            </p>
+            <div
+              className={[classes.projectImage, classes.reactMiniScripts].join(" ")}
+            >
+              <ul className={classes.projectTech}>
+                <li>
+                  <i class="devicon-react-original" title="REACT" />
+                </li>
+                <li>
+                  <i class="devicon-html5-plain" title="HTML5" />
+                </li>
+                <li>
+                  <i class="devicon-css3-plain" title="CSS3" />
+                </li>
+                <li>
+                  <i class="devicon-sass-original" title="SCSS" />
+                </li>
+                <li>
+                  <i class="devicon-javascript-plain" title="JavaScript" />
+                </li>
+                <li>
+                  <i class="devicon-webpack-plain" title="Webpack" />
+                </li>
+                <li>
+                  <i class="devicon-visualstudio-plain" title="VS Code" />
+                </li>
+                <li>
+                  <i class="devicon-git-plain" title="Git" />
+                </li>
+                <li>
+                  <i class="devicon-github-plain" title="GitHub" />
+                </li>
+              </ul>
+            </div>
+          </li>
+					<li
             className={[classes.project, classes.verticalLineContent].join(" ")}
           >
             <div
@@ -95,7 +311,7 @@ const Projects = () => {
                   <span class="project-details-label">
                     <a
                       className={classes.profile}
-                      href="http://kenaustria.com"
+                      href="http://kenaustria.herokuapp.com/"
                       target="_blank"
                     >
                       Live
@@ -153,117 +369,69 @@ const Projects = () => {
               </ul>
             </div>
           </li>
-          {/* <li className={classes.project}>
-						<div className={[classes.projectImage, classes.danTheWeatherMan].join(' ')}>
-							<ul className={classes.projectTech}>
-								<li>
-									<i class="devicon-react-original" title="REACT"></i>
-								</li>
-								<li>
-									<i class="devicon-html5-plain" title="HTML5"></i>
-								</li>
-								<li>
-									<i class="devicon-css3-plain" title="CSS3"></i>
-								</li>
-								<li>
-									<i class="devicon-sass-original" title="SCSS"></i>
-								</li>
-								<li>
-									<i class="devicon-javascript-plain" title="JavaScript"></i>
-								</li>
-								<li>
-									<i class="devicon-webpack-plain" title="Webpack"></i>
-								</li>
-								<li>
-									<i class="devicon-visualstudio-plain" title="VS Code"></i>
-								</li>
-								<li>
-									<i class="devicon-git-plain" title="Git"></i>
-								</li>
-								<li>
-									<i class="devicon-github-plain" title="GitHub"></i>
-								</li>
-							</ul>
-						</div>
-						<div className={classes.projectDescription}>
-							<div className={classes.projectName}>Dan The Weather Man</div>
-							<ul className={classes.projectDetails}>
-								<li>
-									<span class="project-details-label">
-										<a className={classes.profile} href="http://dantheweatherman.herokuapp.com/" target="_blank">
-											Live
-										</a>
-									</span>
-								</li>
-								<li>
-									<span class="project-details-label">
-										<a className={classes.profile} href="https://github.com/KenAustria/DanTheWeatherMan" target="_blank">
-											Source
-										</a>
-									</span>
-								</li>
-							</ul>
+					<li
+            className={[classes.project, classes.verticalLineContent].join(" ")}
+          >
+            <div
+              className={[classes.projectDescription, classes.bulleted].join(
+                " "
+              )}
+            >
+              <div className={classes.projectName}>Free Code Camp Projects</div>
+              <ul className={classes.projectDetails}>
+                <li>
+                  <span class="project-details-label">
+                    <a
+                      className={classes.profile}
+                      href="https://codepen.io/kenaustria/pens/public/"
+                      target="_blank"
+                    >
+                      Live
+                    </a>
+                  </span>
+                </li>
+                <li>
+                  <span class="project-details-label">
+                    <a
+                      className={classes.profile}
+											href="https://github.com/KenAustria/freeCodeCamp_Projects"
+											target="_blank"
+                    >
+                      Source
+                    </a>
+                  </span>
+                </li>
+              </ul>
             </div>
-						<p>
-						A React-Redux weather forecast web application, using asynchronous calls with Axios.
+            <p className={classes.projectInfo}>
+              Front end projects for earned certification.
             </p>
-					</li>
-					<li className={classes.project}>
-						<div className={[classes.projectImage, classes.blogAboutIt].join(' ')}>
-							<ul className={classes.projectTech}>
-								<li>
-									<i class="devicon-react-original" title="REACT"></i>
-								</li>
-								<li>
-									<i class="devicon-html5-plain" title="HTML5"></i>
-								</li>
-								<li>
-									<i class="devicon-css3-plain" title="CSS3"></i>
-								</li>
-								<li>
-									<i class="devicon-sass-original" title="SCSS"></i>
-								</li>
-								<li>
-									<i class="devicon-javascript-plain" title="JavaScript"></i>
-								</li>
-								<li>
-									<i class="devicon-webpack-plain" title="Webpack"></i>
-								</li>
-								<li>
-									<i class="devicon-visualstudio-plain" title="VS Code"></i>
-								</li>
-								<li>
-									<i class="devicon-git-plain" title="Git"></i>
-								</li>
-								<li>
-									<i class="devicon-github-plain" title="GitHub"></i>
-								</li>
-							</ul>
-						</div>
-						<div className={classes.projectDescription}>
-							<div className={classes.projectName}>Blog About It</div>
-							<ul className={classes.projectDetails}>
-								<li>
-									<span class="project-details-label">
-										<a className={classes.profile} href="https://blogaboutit.herokuapp.com/" target="_blank">
-											Live
-										</a>
-									</span>
-								</li>
-								<li>
-									<span class="project-details-label">
-										<a className={classes.profile} href="https://github.com/KenAustria/BlogAboutIt" target="_blank">
-											Source
-										</a>
-									</span>
-								</li>
-							</ul>
+            <div
+              className={[classes.projectImage, classes.freeCodeCamp].join(" ")}
+            >
+              <ul className={classes.projectTech}>
+                <li>
+                  <i class="devicon-html5-plain" title="HTML5" />
+                </li>
+                <li>
+                  <i class="devicon-css3-plain" title="CSS3" />
+                </li>
+                <li>
+                  <i class="devicon-javascript-plain" title="JavaScript" />
+                </li>
+                <li>
+                  <i class="devicon-visualstudio-plain" title="VS Code" />
+                </li>
+                <li>
+                  <i class="devicon-git-plain" title="Git" />
+                </li>
+                <li>
+                  <i class="devicon-github-plain" title="GitHub" />
+                </li>
+              </ul>
             </div>
-						<p>
-						A multi-page web React-Redux application using React-Router, built with validated forms from Redux Form that saves the record to a remote server.
-            </p>
-					</li> */}
-        </ul>
+          </li>
+				</ul>
       </section>
     </div>
   );
