@@ -31,7 +31,8 @@ const Experience = () => {
                 <a
                   className={classes.profile}
                   href="https://www.helloworldstudio.org/"
-                  target="_blank"
+									target="_blank"
+									rel="noopener noreferrer"
                 >
                   Hello World Studio
                 </a>
@@ -65,7 +66,8 @@ const Experience = () => {
                 <a
                   className={classes.profile}
                   href="https://alz.care"
-                  target="_blank"
+									target="_blank"
+									rel="noopener noreferrer"
                 >
                   PreSafe: AlzCare Labs
                 </a>
@@ -99,7 +101,8 @@ const Experience = () => {
                 <a
                   className={classes.profile}
                   href="https://www.cureus.com/"
-                  target="_blank"
+									target="_blank"
+									rel="noopener noreferrer"
                 >
                   Cureus
                 </a>

@@ -22,7 +22,8 @@ const Projects = () => {
                     <a
                       className={classes.profile}
                       href="https://github.com/KenAustria/GroupGrid"
-                      target="_blank"
+											target="_blank"
+											rel="noopener noreferrer"
                     >
                       Live
                     </a>
@@ -33,7 +34,8 @@ const Projects = () => {
                     <a
                       className={classes.profile}
                       href="https://github.com/KenAustria/GroupGrid"
-                      target="_blank"
+											target="_blank"
+											rel="noopener noreferrer"
                     >
                       Source
                     </a>
@@ -95,7 +97,8 @@ const Projects = () => {
                     <a
                       className={classes.profile}
                       href="https://burgerbuilder-be355.firebaseapp.com/"
-                      target="_blank"
+											target="_blank"
+											rel="noopener noreferrer"
                     >
                       Live
                     </a>
@@ -106,7 +109,8 @@ const Projects = () => {
                     <a
                       className={classes.profile}
                       href="https://github.com/KenAustria/Burger-Builder"
-                      target="_blank"
+											target="_blank"
+											rel="noopener noreferrer"
                     >
                       Source
                     </a>
@@ -168,7 +172,8 @@ const Projects = () => {
                     <a
                       className={classes.profile}
                       href="https://blogaboutit.herokuapp.com/"
-                      target="_blank"
+											target="_blank"
+											rel="noopener noreferrer"
                     >
                       Live
                     </a>
@@ -179,7 +184,8 @@ const Projects = () => {
                     <a
                       className={classes.profile}
                       href="https://github.com/KenAustria/BlogAboutIt"
-                      target="_blank"
+											target="_blank"
+											rel="noopener noreferrer"
                     >
                       Source
                     </a>
@@ -241,7 +247,8 @@ const Projects = () => {
                     <a
                       className={classes.profile}
                       href="https://github.com/KenAustria/React_Mini_Scripts"
-                      target="_blank"
+											target="_blank"
+											rel="noopener noreferrer"
                     >
                       Live
                     </a>
@@ -252,7 +259,8 @@ const Projects = () => {
                     <a
                       className={classes.profile}
                       href="https://github.com/KenAustria/React_Mini_Scripts"
-                      target="_blank"
+											target="_blank"
+											rel="noopener noreferrer"
                     >
                       Source
                     </a>
@@ -312,7 +320,8 @@ const Projects = () => {
                     <a
                       className={classes.profile}
                       href="http://kenaustria.herokuapp.com/"
-                      target="_blank"
+											target="_blank"
+											rel="noopener noreferrer"
                     >
                       Live
                     </a>
@@ -323,7 +332,8 @@ const Projects = () => {
                     <a
                       className={classes.profile}
                       href="https://github.com/KenAustria/WebPortfolio"
-                      target="_blank"
+											target="_blank"
+											rel="noopener noreferrer"
                     >
                       Source
                     </a>
@@ -384,7 +394,8 @@ const Projects = () => {
                     <a
                       className={classes.profile}
                       href="https://codepen.io/kenaustria/pens/public/"
-                      target="_blank"
+											target="_blank"
+											rel="noopener noreferrer"
                     >
                       Live
                     </a>

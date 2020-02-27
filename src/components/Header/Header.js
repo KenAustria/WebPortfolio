@@ -32,7 +32,8 @@ const Header = () => {
             <li className={classes.portfolioContactListItem}>
               <a
                 href="https://www.google.ca/maps/place/San+Francisco,+CA"
-                target="_blank"
+								target="_blank"
+								rel="noopener noreferrer"
                 className={classes.SocialIcon}
               >
                 <FontAwesomeIcon icon={faMapPin} fixedWidth />
@@ -41,7 +42,8 @@ const Header = () => {
             <li className={classes.portfolioContactListItem}>
               <a
                 href="https://www.linkedin.com/in/kenaustria/"
-                target="_blank"
+								target="_blank"
+								rel="noopener noreferrer"
                 className={classes.SocialIcon}
               >
                 <FontAwesomeIcon icon={faLinkedin} fixedWidth />
@@ -50,7 +52,8 @@ const Header = () => {
             <li className={classes.portfolioContactListItem}>
               <a
                 href="https://github.com/KenAustria"
-                target="_blank"
+								target="_blank"
+								rel="noopener noreferrer"
                 className={classes.SocialIcon}
               >
                 <FontAwesomeIcon icon={faGithub} fixedWidth />
