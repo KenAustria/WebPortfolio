@@ -21,7 +21,7 @@ const Projects = () => {
                   <span class="project-details-label">
                     <a
                       className={classes.profile}
-                      href="https://github.com/KenAustria/GroupGrid"
+                      href="https://groupgrid-1d191.firebaseapp.com/"
 											target="_blank"
 											rel="noopener noreferrer"
                     >

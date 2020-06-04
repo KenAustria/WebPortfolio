@@ -10,7 +10,7 @@ const Header = () => {
       <div className={classes.appPortfolio}>
         <section className={classes.portfolioResume}>
           <a
-            href="https://www.slideshare.net/KennethAustriaPangil/kenneth-pangilinan-resume-228926288"
+            href="https://www.slideshare.net/KennethAustriaPangil/kenneth-pangilinan-front-end-engineer/KennethAustriaPangil/kenneth-pangilinan-front-end-engineer"
           >
             <span className={classes.resumeDownload}>
               <FontAwesomeIcon icon={faDownload} /> Resume
