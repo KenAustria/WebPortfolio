@@ -1,33 +1,46 @@
 import React from 'react';
 import classes from './Header.module.scss';
-import { faDownload, faMapPin } from '@fortawesome/free-solid-svg-icons';
+import { faHandshake, faLink } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+// import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const Header = () => {
   return (
     <header className={classes.appPortfolioContainer}>
       <div className={classes.appPortfolio}>
-        <section className={classes.portfolioResume}>
+				<section className={classes.portfolioResume}>
           <a
-            href="https://www.slideshare.net/KennethAustriaPangil/kenneth-pangilinan-front-end-engineer/KennethAustriaPangil/kenneth-pangilinan-front-end-engineer"
+						target="_blank"
+						rel="noopener noreferrer"
+            href="mailto:kenaustriadev@gmail.com"
           >
             <span className={classes.resumeDownload}>
-              <FontAwesomeIcon icon={faDownload} /> Resume
+              <FontAwesomeIcon icon={faHandshake} /> Hire Me
             </span>
           </a>
         </section>
         <section className={classes.portfolioTitleContainer}>
           <div className={classes.portfolioTitle}>
             <h1 className={classes.portfolioTitleTop}>
-              <span className={classes.portfolioTitleUpper}>ken austria</span>
+              <span className={classes.portfolioTitleUpper}>kenneth pangilinan</span>
               <span className={classes.portfolioTitleLower}>
                 front end engineer
               </span>
             </h1>
           </div>
         </section>
-        <nav className={classes.portfolioContact}>
+				<section className={classes.portfolioResume}>
+          <a
+						target="_blank"
+						rel="noopener noreferrer"
+            href="https://linktr.ee/kenaustriadev"
+          >
+            <span className={classes.resumeDownload}>
+              <FontAwesomeIcon icon={faLink} /> Contact Links
+            </span>
+          </a>
+        </section>
+        {/* <nav className={classes.portfolioContact}>
           <ul className={classes.portfolioContactList}>
             <li className={classes.portfolioContactListItem}>
               <a
@@ -60,7 +73,7 @@ const Header = () => {
               </a>
             </li>
           </ul>
-        </nav>
+        </nav> */}
       </div>
     </header>
   );

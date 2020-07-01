@@ -32,7 +32,7 @@ const Availability = () => {
             <div
               className={[classes.bulleted, classes.contentSubheader].join(" ")}
             >
-              Yes, I'm open to relocate to Los Angeles, Seattle, Austin, and New York.
+              Sure! I'm open to relocate to Los Angeles, San Diego, Seattle, Austin, and New York.
             </div>
           </li>
           <li className={classes.verticalLineContent}>

@@ -4,9 +4,9 @@ import classes from './Bio.module.scss';
 const Bio = () => {
   return (
     <div className={classes.profileSection}>
-      <h1 className={classes.profileTitle}>ken austria</h1>
+      <h1 className={classes.profileTitle}>kenneth pangilinan</h1>
       <p>
-        Hello! I'm Ken, a front end engineer based in San Francisco, USA.
+        Hello! I'm Kenneth, a front end engineer based in San Francisco, USA.
         Positioned to utilize solid design and conceptual skills to meet and
         exceed organizational targets. In a deeply immersive agile development
         setting, I thrive on quick iterations, transparent communication during

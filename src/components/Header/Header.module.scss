@@ -14,354 +14,354 @@ $color-blue-transp: rgba(21, 143, 224, 0.8);
 
 /* Flexbox display */
 @mixin display-flex {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
 }
 
 @mixin flex-direction($direction) {
-  -webkit-flex-direction: $direction;
-  -moz-flex-direction: $direction;
-  -ms-flex-direction: $direction;
-  flex-direction: $direction;
+	-webkit-flex-direction: $direction;
+	-moz-flex-direction: $direction;
+	-ms-flex-direction: $direction;
+	flex-direction: $direction;
 }
 
 @mixin align-items($align) {
-  -webkit-align-items: $align;
-  -moz-align-items: $align;
-  -ms-align-items: $align;
-  align-items: $align;
+	-webkit-align-items: $align;
+	-moz-align-items: $align;
+	-ms-align-items: $align;
+	align-items: $align;
 }
 
 @mixin justify-content($justify) {
-  -webkit-justify-content: $justify;
-  -moz-justify-content: $justify;
-  -ms-justify-content: $justify;
-  justify-content: $justify;
-  -ms-flex-pack: $justify;
+	-webkit-justify-content: $justify;
+	-moz-justify-content: $justify;
+	-ms-justify-content: $justify;
+	justify-content: $justify;
+	-ms-flex-pack: $justify;
 }
 
 @mixin flex($values) {
-  -webkit-box-flex: $values;
-  -moz-box-flex: $values;
-  -webkit-flex: $values;
-  -ms-flex: $values;
-  flex: $values;
+	-webkit-box-flex: $values;
+	-moz-box-flex: $values;
+	-webkit-flex: $values;
+	-ms-flex: $values;
+	flex: $values;
 }
 
 @mixin flex-wrap($wrap) {
-  -webkit-flex-wrap: $wrap;
-  -moz-flex-wrap: $wrap;
-  -ms-flex-wrap: $wrap;
-  flex-wrap: $wrap;
+	-webkit-flex-wrap: $wrap;
+	-moz-flex-wrap: $wrap;
+	-ms-flex-wrap: $wrap;
+	flex-wrap: $wrap;
 }
 
 .appPortfolioContainer {
-  width: 30%;
-  position: fixed;
-  height: 100vh;
-  left: 0;
-  pointer-events: none;
+	width: 30%;
+	position: fixed;
+	height: 100vh;
+	left: 0;
+	pointer-events: none;
 }
 
 .appPortfolio {
-  @include display-flex;
-  @include flex-direction(column);
-  @include align-items(center);
-  @include justify-content(center);
-  background-image: url("../../images/antelope.jpg");
-  background-size: cover;
-  background-position: center;
-  padding: 60px;
-  position: relative;
-  height: 100%;
-  text-align: center;
-  width: 100%;
-  z-index: 0;
-  &::after {
-    // Blue background-image overlay.
-    content: "";
-    background-color: $color-blue-transp;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: -1; // Must be indexed below interactive links.
-  }
-  i {
-    margin-right: 5px;
-    width: 20px;
-  }
+	@include display-flex;
+	@include flex-direction(column);
+	@include align-items(center);
+	@include justify-content(center);
+	background-image: url("../../images/antelope.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 60px;
+	position: relative;
+	height: 100%;
+	text-align: center;
+	width: 100%;
+	z-index: 0;
+	&::after {
+		// Blue background-image overlay.
+		content: "";
+		background-color: $color-blue-transp;
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		z-index: -1; // Must be indexed below interactive links.
+	}
+	i {
+		margin-right: 5px;
+		width: 20px;
+	}
 }
 
 .portfolioResume {
-  color: $color-white;
-  padding: 20px;
-  pointer-events: all;
+	color: $color-white;
+	padding: 20px;
+	pointer-events: all;
 }
 
 .resumeDownload {
-  border: 1px solid $color-white;
-  font-size: $font-size-small;
-  letter-spacing: $letter-spacing-large;
-  padding: 20px;
-  text-transform: uppercase;
-  transition: 0.2s ease-in-out;
-  white-space: nowrap;
-  &:hover {
-    background-color: $color-white;
-    color: $color-blue;
-    cursor: pointer;
-    letter-spacing: 4px;
-    transition: 0.2s ease-in-out;
-  }
+	border: 1px solid $color-white;
+	font-size: $font-size-small;
+	letter-spacing: $letter-spacing-large;
+	padding: 20px;
+	text-transform: uppercase;
+	transition: 0.2s ease-in-out;
+	white-space: nowrap;
+	&:hover {
+		background-color: $color-white;
+		color: $color-blue;
+		cursor: pointer;
+		letter-spacing: 4px;
+		transition: 0.2s ease-in-out;
+	}
 }
 
 /* Title: */
 .portfolioTitleContainer {
-  @include display-flex;
-  @include flex(1);
+	@include display-flex;
+	@include flex(1);
 }
 
 .portfolioTitle {
-  @include display-flex;
-  @include align-items(center);
-  @include justify-content(center);
-  height: 100%;
-  text-align: center;
+	@include display-flex;
+	@include align-items(center);
+	@include justify-content(center);
+	height: 100%;
+	text-align: center;
 }
 
 .portfolioTitleTop {
-  color: $color-white;
-  line-height: 60px;
-  margin-left: -20px;
-  padding-left: -30px;
-  transform: skewY(-4deg);
-  transition: 0.2s ease-in-out;
-  white-space: nowrap;
-  width: 270px;
-  font-family: Sacramento, serif;
+	color: $color-white;
+	line-height: 60px;
+	margin-left: -20px;
+	padding-left: -30px;
+	transform: skewY(-4deg);
+	transition: 0.2s ease-in-out;
+	white-space: nowrap;
+	width: 270px;
+	font-family: Sacramento, serif;
 }
 
 .portfolioTitleUpper {
-  padding-right: 50px;
-  margin-left: -30px;
-  display: block;
-  font-weight: 800;
-  font-size: $font-size-xxlarge;
+	padding-right: 50px;
+	margin-left: -30px;
+	display: block;
+	font-weight: 800;
+	font-size: $font-size-xxlarge;
 }
 
 .portfolioTitleLower {
-  padding-left: 38px;
-  white-space: nowrap;
-  font-weight: 100;
-  font-size: 50px;
+	padding-left: 38px;
+	white-space: nowrap;
+	font-weight: 100;
+	font-size: 50px;
 }
 
 .portfolioContact {
-  color: $color-white;
-  font-size: $font-size-large;
-  letter-spacing: $letter-spacing-large;
-  pointer-events: all;
-  width: 100%;
-  z-index: 2;
-  ul {
-    @include display-flex;
-    @include align-items(center);
-    @include flex-direction(row);
-    @include flex-wrap(wrap);
-    @include justify-content(center);
-    width: 100%;
-    li {
-      margin: 10px;
-      white-space: nowrap;
-      .i-label {
-        border-bottom: 1px solid transparent;
-        padding-bottom: 1px;
-        transition: 0.2s ease-in-out;
-      }
-      a:hover {
-        .i-label {
-          border-bottom: 1px solid $color-white;
-          transition: 0.2s ease-in-out;
-        }
-      }
-    }
-  }
+	color: $color-white;
+	font-size: $font-size-large;
+	letter-spacing: $letter-spacing-large;
+	pointer-events: all;
+	width: 100%;
+	z-index: 2;
+	ul {
+		@include display-flex;
+		@include align-items(center);
+		@include flex-direction(row);
+		@include flex-wrap(wrap);
+		@include justify-content(center);
+		width: 100%;
+		li {
+			margin: 10px;
+			white-space: nowrap;
+			.i-label {
+				border-bottom: 1px solid transparent;
+				padding-bottom: 1px;
+				transition: 0.2s ease-in-out;
+			}
+			a:hover {
+				.i-label {
+					border-bottom: 1px solid $color-white;
+					transition: 0.2s ease-in-out;
+				}
+			}
+		}
+	}
 }
 
 .portfolioContactList {
-  @include display-flex;
-  @include align-items(center);
-  @include flex-direction(row);
-  @include flex-wrap(wrap);
-  @include justify-content(center);
-  width: 100%;
-  list-style-type: none;
+	@include display-flex;
+	@include align-items(center);
+	@include flex-direction(row);
+	@include flex-wrap(wrap);
+	@include justify-content(center);
+	width: 100%;
+	list-style-type: none;
 }
 
 .portfolioContactListItem {
-  margin: 10px;
-  white-space: nowrap;
+	margin: 10px;
+	white-space: nowrap;
 }
 
 .SocialIcon {
-  font-size: 2rem;
-  color: $color-white;
-  padding: 0 1rem;
-  animation: moveInBottom 3s ease-out 0.75s;
-  animation-fill-mode: backwards;
+	font-size: 2rem;
+	color: $color-white;
+	padding: 0 1rem;
+	animation: moveInBottom 3s ease-out 0.75s;
+	animation-fill-mode: backwards;
 
-  &:link,
-  &:visited {
-    display: inline-block;
-    transition: all 0.2s;
-  }
+	&:link,
+	&:visited {
+		display: inline-block;
+		transition: all 0.2s;
+	}
 
-  &:hover,
-  &:active {
-    box-shadow: 0 1rem 2rem rgba($color-black, 0);
-    transform: rotate(5deg) scale(1.3);
-  }
+	&:hover,
+	&:active {
+		box-shadow: 0 1rem 2rem rgba($color-black, 0);
+		transform: rotate(5deg) scale(1.3);
+	}
 }
 
 @media (max-width: 1024px) {
-  .appPortfolioContainer {
-    display: block;
-    width: 100%;
-    height: 500px;
-    position: relative;
-  }
+	.appPortfolioContainer {
+		display: block;
+		width: 100%;
+		height: 500px;
+		position: relative;
+	}
 }
 
 @media (max-width: 659px) {
-  .portfolioContact {
-    ul {
-      li {
-        margin: 2.5px;
-      }
-    }
-  }
+	.portfolioContact {
+		ul {
+			li {
+				margin: 2.5px;
+			}
+		}
+	}
 
-  .portfolioContactList {
-    li {
-      @include display-flex;
-      @include align-items(center);
-      @include flex-direction(row);
-      @include flex-wrap(wrap);
-      @include justify-content(center);
-      transition: 0.2s ease-in-out;
-      a {
-        padding: 10px;
-      }
-    }
-    i {
-      font-size: $font-size-medium;
-      margin-right: 0;
-    }
-    li:hover {
-      color: rgba(255, 255, 255, 0.55);
-      transition: 0.2s ease-in-out;
-    }
-  }
+	.portfolioContactList {
+		li {
+			@include display-flex;
+			@include align-items(center);
+			@include flex-direction(row);
+			@include flex-wrap(wrap);
+			@include justify-content(center);
+			transition: 0.2s ease-in-out;
+			a {
+				padding: 10px;
+			}
+		}
+		i {
+			font-size: $font-size-medium;
+			margin-right: 0;
+		}
+		li:hover {
+			color: rgba(255, 255, 255, 0.55);
+			transition: 0.2s ease-in-out;
+		}
+	}
 }
 
 @media (max-width: 659px) {
-  .i-label {
-    display: none;
-  }
+	.i-label {
+		display: none;
+	}
 }
 
 @media (max-width: 399px) {
-  .resumeDownload {
-    padding: 10px;
-  }
+	.resumeDownload {
+		padding: 10px;
+	}
 
-  .portfolioTitle {
-    h1 {
-      font-size: 50px;
-    }
+	.portfolioTitle {
+		h1 {
+			font-size: 50px;
+		}
 
-    .portfolioTitleTop {
-      margin-bottom: -20px;
-    }
+		.portfolioTitleTop {
+			margin-bottom: -20px;
+		}
 
-    .portfolioTitleUpper {
-      display: block;
-      margin-bottom: -10px;
-    }
+		.portfolioTitleUpper {
+			display: block;
+			margin-bottom: -10px;
+		}
 
-    .portfolioTitleLower {
-      margin-left: 10px;
-    }
-  }
+		.portfolioTitleLower {
+			margin-left: 10px;
+		}
+	}
 }
 
 @media (max-height: 449px) {
-  .appPortfolio {
-    padding: 40px;
-  }
+	.appPortfolio {
+		padding: 40px;
+	}
 }
 
 @media (max-height: 449px) {
-  .resumeDownload {
-    padding: 10px;
-  }
+	.resumeDownload {
+		padding: 10px;
+	}
 }
 
 @media (max-height: 449px) {
-  .portfolioTitle {
-    margin-top: -10px;
+	.portfolioTitle {
+		margin-top: -10px;
 
-    h1 {
-      font-size: 50px;
-    }
+		h1 {
+			font-size: 50px;
+		}
 
-    .portfolioTitleTop {
-      margin-bottom: -20px;
-    }
+		.portfolioTitleTop {
+			margin-bottom: -20px;
+		}
 
-    .portfolioTitleUpper {
-      display: block;
-      margin-bottom: -10px;
-      padding-left: 5px;
-    }
+		.portfolioTitleUpper {
+			display: block;
+			margin-bottom: -10px;
+			padding-left: 5px;
+		}
 
-    .portfolioTitleLower {
-      margin-left: 22px;
-    }
-  }
+		.portfolioTitleLower {
+			margin-left: 22px;
+		}
+	}
 }
 
 @media (max-height: 379px) {
-  .appPortfolio {
-    padding: 20px;
-  }
+	.appPortfolio {
+		padding: 20px;
+	}
 }
 
 @media (max-height: 299px) {
-  .appPortfolio {
-    padding: 20px;
-  }
+	.appPortfolio {
+		padding: 20px;
+	}
 }
 
 @media (max-height: 249px) {
-  .appPortfolioContainer {
-    height: 249px;
-  }
+	.appPortfolioContainer {
+		height: 249px;
+	}
 }
 
 @keyframes moveInBottom {
-  0% {
-    opacity: 0;
-    transform: translateY(30px);
-  }
+	0% {
+		opacity: 0;
+		transform: translateY(30px);
+	}
 
-  100% {
-    opacity: 1;
-    transform: translate(0);
-  }
+	100% {
+		opacity: 1;
+		transform: translate(0);
+	}
 }

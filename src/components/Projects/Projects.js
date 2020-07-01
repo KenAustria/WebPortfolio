@@ -407,6 +407,7 @@ const Projects = () => {
                       className={classes.profile}
 											href="https://github.com/KenAustria/freeCodeCamp_Projects"
 											target="_blank"
+											rel="noopener noreferrer"
                     >
                       Source
                     </a>
